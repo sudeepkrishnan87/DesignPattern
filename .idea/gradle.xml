@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Creational-Pattern" />
+        <option name="gradleJvm" value="ms-21" />
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/creational" />
+        <option name="gradleJvm" value="ms-21" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/creational" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/creational-pattern" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
