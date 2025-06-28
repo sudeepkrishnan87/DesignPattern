@@ -2,6 +2,11 @@ package org.mytechexp.creational.creational.proxy;
 
 public class EmailWriterProxy implements EmailWriter {
     private RealEmailWriter realEmailWriter;
+//Adding this getter to check in the test case
+    public String getContent() {
+        return content;
+    }
+
     private String content;
     private boolean authorized;
 
