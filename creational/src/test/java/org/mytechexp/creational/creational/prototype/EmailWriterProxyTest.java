@@ -1,4 +1,4 @@
-package org.mytechexp.creational.creational.proxy;
+package org.mytechexp.creational.creational.prototype;
 
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;

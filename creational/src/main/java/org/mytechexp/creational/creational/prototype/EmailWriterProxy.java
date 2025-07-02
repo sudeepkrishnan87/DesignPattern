@@ -1,4 +1,4 @@
-package org.mytechexp.creational.creational.proxy;
+package org.mytechexp.creational.creational.prototype;
 
 public class EmailWriterProxy implements EmailWriter {
     private RealEmailWriter realEmailWriter;

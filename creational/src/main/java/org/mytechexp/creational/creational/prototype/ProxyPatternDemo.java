@@ -1,4 +1,4 @@
-package org.mytechexp.creational.creational.proxy;
+package org.mytechexp.creational.creational.prototype;
 
 public class ProxyPatternDemo {
     public static void main(String[] args) throws CloneNotSupportedException {

@@ -1,4 +1,4 @@
-package org.mytechexp.creational.creational.proxy;
+package org.mytechexp.creational.creational.prototype;
 
 public interface EmailWriter extends Cloneable {
     void send(String msg);
