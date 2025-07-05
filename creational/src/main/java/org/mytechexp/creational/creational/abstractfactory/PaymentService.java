@@ -14,6 +14,6 @@ public class PaymentService {
     }
     public void processCheckout(){
         globalFactory.setPayment(amount);
-        invoice.generate();
+        globalFactory.getInvoice();
     }
 }
