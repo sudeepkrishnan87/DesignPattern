@@ -5,23 +5,32 @@ import java.util.List;
 
 public class Demo {
     public static void main(String[] args) {
-        List<Item> bulkItem=new ArrayList<>();
-        bulkItem.add(new MacBook());
-        bulkItem.add(new Ipad());
+        ProductBundle appleKit=new ProductBundle("AppleProduct");
+        appleKit.addItem(new Product(200000.76,"Mac Book Pro"));
+        appleKit.addItem(new Product(20000.76,"Ipad mini"));
 
-        Item tv=new Television();
-        bulkItem.add(tv);
+        Product television= new Product(120000.00,"Sony Bravia");
+
+        ProductBundle schoolKit=new ProductBundle("School Kit");
+
+        Product pen=new Product(10,"pen");
+        Product bag=new Product(1500,"School bag");
+        schoolKit.addItem(pen);
+        schoolKit.addItem(bag);
+        List<Item> cartItems=new ArrayList<>();
+        cartItems.add(television);
+        cartItems.add(appleKit);
+        cartItems.add(schoolKit);
+
         double totalPrice=0;
-        StringBuilder description=new StringBuilder();
-        for(Item item: bulkItem)
+        for(Item item: cartItems)
         {
            totalPrice+=item.getPrice();
-            description.append(item.getDescription()+"\n");
+           System.out.println(item.getDescription());
 
         }
 
         System.out.println("Total price is:"+totalPrice);
-        System.out.println("Product Summary \n"+description);
 
 
     }

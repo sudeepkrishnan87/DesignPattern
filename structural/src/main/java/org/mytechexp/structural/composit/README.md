@@ -1,1 +1,1 @@
-![img.png](img.png)
+<img alt="img_2.png" src="img_2.png"/>
